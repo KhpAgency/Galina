@@ -512,6 +512,14 @@ strong {
 	display: none;
 }
 
+
+.title-veg {
+	font-family: 'Montserrat';
+	font-size: 18px;
+	color: var(--green);
+	text-align: center
+}
+
 /* End New CSS */
 
 /* new media query start */
