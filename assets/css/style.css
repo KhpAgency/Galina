@@ -297,7 +297,7 @@ ul,
 li {
 	margin: 0;
 	padding: 0;
-	list-style: none;
+	list-style: disc;
 }
 
 b {
@@ -519,6 +519,29 @@ strong {
 	color: var(--green);
 	text-align: center
 }
+
+.list-cuts {
+	list-style: disc;
+	color: var(--orange);
+	font-family: 'Montserrat';
+	font-size: 18px;
+	/* margin-top: 70px; */
+	margin-left: 20px;
+}
+.list-cuts2 {
+	list-style: disc;
+	color: var(--orange);
+	font-family: 'Montserrat';
+	font-size: 18px;
+	margin-left: 20px;
+}
+
+.p-list {
+	font-family: 'Montserrat';
+	font-size: 19px;
+	font-weight: 700;
+}
+
 
 /* End New CSS */
 
