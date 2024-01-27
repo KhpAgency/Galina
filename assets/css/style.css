@@ -540,6 +540,7 @@ strong {
 	font-family: 'Montserrat';
 	font-size: 19px;
 	font-weight: 700;
+	margin-top: 30px;
 }
 
 
@@ -547,6 +548,12 @@ strong {
 
 /* new media query start */
 @media only screen and (max-width: 767px) {
+	.product-title{
+		font-size: 25px;
+	}
+
+
+
 	.testimonials-area1 {
 		margin-top: 0 !important;
 		background-size: cover !important;
