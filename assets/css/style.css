@@ -297,7 +297,7 @@ ul,
 li {
 	margin: 0;
 	padding: 0;
-	list-style: disc;
+	/* list-style: disc; */
 }
 
 b {
@@ -1334,7 +1334,7 @@ p {
 }
 
 .default-padding-bottom.bottom-less {
-	padding-bottom: 90px;
+	padding-bottom: 68px;
 }
 
 @media only screen and (max-width: 767px) {
