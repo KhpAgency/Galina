@@ -1163,7 +1163,7 @@ p {
 
 .bg-dark {
 	background-color: var(--dark) !important;
-	background-image: url(../images/Suc-bg-20.jpg);
+	background-image: url(../images/Suc-bg-20-20.jpg);
 }
 
 .bg-theme {
@@ -4755,7 +4755,7 @@ ul.counter-list li:nth-child(2) {
 	width: 100%;
 	background: var(--dark);
 	z-index: -1;
-	background-image: url(../images/Suc-bg-20.jpg);
+	background-image: url(../images/Suc-bg-20-20.jpg);
 	background-position-y: 604px;
 }
 
