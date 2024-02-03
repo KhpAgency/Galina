@@ -758,7 +758,7 @@ nav.woocommerce-pagination {
 
 .product-details .product-thumb .product-item {
 	padding: 50px;
-	background: var(--bg-gray);
+	/* background: var(--bg-gray); */
 	position: relative;
 }
 

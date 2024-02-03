@@ -6827,7 +6827,7 @@ li.project-feature-list h4 {
 .product-features-style-one::after {
 	position: absolute;
 	left: 0;
-	top: -50%;
+	top: -55%;
 	content: "";
 	height: 300%;
 	width: 400%;
