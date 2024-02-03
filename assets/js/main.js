@@ -531,7 +531,7 @@
          const relatedProduct = new Swiper(".related-product-carousel", {
             // Optional parameters
             loop: true,
-            slidesPerView: 1,
+            slidesPerView: 2,
             spaceBetween: 30,
             autoplay: true,
             breakpoints: {
