@@ -5085,7 +5085,8 @@ ul.counter-list li:nth-child(2) {
 }
 
 .services-style-two-item .info {
-	padding: 50px 37px;
+	/* padding: 50px 37px; */
+	padding: 0px;
 }
 
 .services-style-two-item p {
