@@ -798,6 +798,11 @@ strong {
 		opacity: 0.05;
 	}
 
+	.brochure-btn {
+		margin-top: 20px !important;
+		margin-left: -50px !important
+	}
+
 	.reasons {
 		font-size: 22px;
 		margin-bottom: 0px;
