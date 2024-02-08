@@ -326,6 +326,29 @@ strong {
 
 /* New CSS */
 
+/* MAP HOLDER */
+.map-holder {
+	width: 100%;
+	display: flex;
+	margin-top: 50px;
+	position: relative;
+	overflow: hidden;
+}
+
+.map-holder iframe {
+	width: 100%;
+	height: 400px;
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.mrg-map {
+	margin-bottom: 50px;
+	margin-top: -110px
+}
+
 .landing-bg {
 	background-image: url(../images/Landing-bg-18.jpg);
 }
@@ -603,6 +626,20 @@ strong {
 @media only screen and (max-width: 767px) {
 	.product-title {
 		font-size: 20px;
+	}
+
+	.d-non {
+		display: none;
+	}
+
+	.pom-img {
+		background-image: none;
+		/* mix-blend-mode: multiply; */
+	}
+
+	.mrg-map {
+		margin-bottom: 30px;
+		margin-top: -50px
 	}
 
 	.p-list {
