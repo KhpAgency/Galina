@@ -687,6 +687,26 @@ strong {
 	direction: rtl;
 }
 
+.single-product-contents-ar {
+	padding-right: 30px;
+}
+
+.brochure-btn-ar {
+	right: 50px !important;
+	border-radius: 10px !important;
+	padding: 12px 25px !important;
+	font-size: 13px !important;
+	-webkit-border-radius: 10px !important;
+	-moz-border-radius: 10px !important;
+	-ms-border-radius: 10px !important;
+	-o-border-radius: 10px !important;
+}
+
+.header-ar {
+	position: relative;
+	left: 100px;
+}
+
 /* End Arabic CSS */
 
 
