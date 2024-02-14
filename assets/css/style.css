@@ -660,6 +660,13 @@ strong {
 .d-flex-ar {
 	display: flex !important ;
 	flex-direction: row-reverse !important;
+
+
+}
+.e-span {
+    font-family: var(--font-default) !important;
+    float: right;
+    direction: rtl;
 }
 
 /* End Arabic CSS */
