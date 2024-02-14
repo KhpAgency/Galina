@@ -647,10 +647,19 @@ strong {
 	direction: rtl !important;
 }
 
+.ar-rtl{
+	direction: rtl;
+}
+
 .ar-float-c {
 	float: right !important;
 	text-align: center !important;
 	direction: rtl !important;
+}
+
+.d-flex-ar {
+	display: flex !important ;
+	flex-direction: row-reverse !important;
 }
 
 /* End Arabic CSS */
