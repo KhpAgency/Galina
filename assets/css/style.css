@@ -653,6 +653,12 @@ strong {
 	direction: rtl !important;
 }
 
+.e-span {
+    font-family: var(--font-default) !important;
+    float: right;
+    direction: rtl;
+}
+
 /* End Arabic CSS */
 
 
