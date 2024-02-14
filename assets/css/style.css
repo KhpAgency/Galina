@@ -108,9 +108,9 @@ Sidebar heading:  20px 'Manrope', sans-serif
 @font-face {
 	font-family: 'GE SS Two';
 	src: local('GE SS Two Medium'), local('GE SS Two Medium'),
-		url('../fonts/GESSTwoMedium/GE\ SS\ Two\ Medium.woff2') format('woff2'),
-		url('../fonts/GESSTwoMedium/GE\ SS\ Two\ Medium.woff') format('woff'),
-		url('../fonts/GESSTwoMedium/GE\ SS\ Two\ Medium.ttf') format('truetype');
+		url('../fonts/GESSTwoMedium/GESSTwo-Medium.woff2') format('woff2'),
+		url('../fonts/GESSTwoMedium/GESSTwo-Medium.woff') format('woff'),
+		url('../fonts/GESSTwoMedium/GESSTwo-Medium.ttf') format('truetype');
 	font-weight: 500;
 	font-style: normal;
 }
