@@ -660,13 +660,31 @@ strong {
 .d-flex-ar {
 	display: flex !important ;
 	flex-direction: row-reverse !important;
-
-
 }
+
 .e-span {
     font-family: var(--font-default) !important;
     float: right;
     direction: rtl;
+}
+
+.list-cuts-ar {
+    direction: rtl;
+    list-style: disc;
+    color: var(--orange);
+    font-family: 'Montserrat';
+    font-size: 18px;
+    /* margin-top: 70px; */
+    margin-right: 20px;
+}
+
+.list-cuts2-ar {
+	list-style: disc;
+	color: var(--orange);
+	font-family: 'Montserrat';
+	font-size: 18px;
+	margin-right: 20px;
+	direction: rtl;
 }
 
 /* End Arabic CSS */
