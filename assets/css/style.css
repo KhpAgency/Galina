@@ -4605,6 +4605,19 @@ nav.navbar.validnavs.inc-shape::after {
 	background-position: right top;
 	z-index: -1;
 }
+.banner-style-onear h2 strong::after {
+	position: absolute;
+	right: 420px;
+	top: -50px;
+	content: "";
+	height: 80px;
+	width: 80px;
+	background: url(../images/Icon.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right top;
+	z-index: -1;
+}
 
 .banner-style-one p {
 	font-size: 17px;
