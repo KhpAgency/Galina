@@ -374,7 +374,7 @@ strong {
 }
 
 .title-mrg {
-	margin-top: 50px;
+	margin-top: 80px;
 }
 
 .reason-titles {
@@ -706,6 +706,27 @@ strong {
 	position: relative;
 	left: 100px;
 }
+
+.btn-md-ar {
+	padding: 10px 30px;
+	font-size: 16px;
+}
+
+.title-ar {
+	font-weight: 800;
+	font-size: 26px;
+	/* margin-top: 50px; */
+}
+
+.site-heading .title-ar {
+	margin-bottom: 0;
+}
+
+.top-ar {
+	position: absolute;
+	left: 310px;
+}
+
 
 /* End Arabic CSS */
 
@@ -6238,6 +6259,7 @@ ul.counter-list li:nth-child(2) {
 	border-radius: 10px;
 	font-size: 12px;
 }
+
 .list-grid-ar2 {
 	display: -ms-grid;
 	display: grid;
@@ -6808,7 +6830,7 @@ ul.counter-list li:nth-child(2) {
 }
 
 .testimonials-area1 {
-	margin-top: 250px;
+	margin-top: 100px;
 	background-size: 50%;
 	background-repeat: no-repeat;
 	/* background-position: left bottom; */
