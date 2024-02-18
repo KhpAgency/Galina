@@ -727,6 +727,26 @@ strong {
 	left: 310px;
 }
 
+.flag {
+	top: 10px;
+	right: -50px;
+	position: absolute;
+	width: 35px;
+}
+
+.flag-t {
+	color: black !important;
+	top: 15px;
+	right: -90px;
+	position: absolute;
+}
+
+.flag-t2 {
+	color: black !important;
+	top: 15px;
+	right: -80px;
+	position: absolute;
+}
 
 /* End Arabic CSS */
 
