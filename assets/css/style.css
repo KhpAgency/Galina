@@ -866,6 +866,22 @@ strong {
 	background-position: left bottom;
 }
 
+.footer-item.contact.f-icons-ar li i {
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 0px;
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--white);
+    border: 1px dashed rgba(255, 255, 255, 0.3);
+    font-weight: 300;
+    font-size: 18px;
+}
+
 
 /* End Arabic CSS */
 
