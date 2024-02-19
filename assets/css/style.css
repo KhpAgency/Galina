@@ -748,6 +748,125 @@ strong {
 	position: absolute;
 }
 
+.btn.btn-theme-ar {
+	color: var(--white);
+	border: none;
+	background: var(--green);
+}
+
+.btn.btn-theme-ar::after {
+	position: absolute;
+	top: inherit;
+	right: inherit;
+	bottom: inherit;
+	right: -5%;
+	content: "";
+	height: 150px;
+	width: 115%;
+	z-index: -1;
+	background-color: var(--orange);
+	-webkit-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+	-webkit-transform: translateY(-45%) skew(25deg) scale(0);
+	-ms-transform: translateY(-45%) skew(25deg) scale(0);
+	transform: translateY(-45%) skew(25deg) scale(0);
+}
+
+.btn.btn-theme-ar:hover::after {
+	-webkit-transform: translateY(-45%) skew(25deg) scale(1.2);
+	-ms-transform: translateY(-45%) skew(25deg) scale(1.2);
+	transform: translateY(-45%) skew(25deg) scale(1.2);
+}
+
+.btn.btn-theme-ar:hover {
+	color: white;
+}
+
+.btn.btn-theme-ar.secondary {
+	color: var(--color-heading);
+	border: none;
+	background: var(--color-secondary);
+}
+
+.btn.btn-theme-ar.secondary::after {
+	position: absolute;
+	top: inherit;
+	right: inherit;
+	bottom: inherit;
+	left: -5%;
+	content: "";
+	height: 150px;
+	width: 115%;
+	z-index: -1;
+	background-color: var(--color-primary);
+	-webkit-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+	-webkit-transform: translateY(-45%) skew(25deg) scale(0);
+	-ms-transform: translateY(-45%) skew(25deg) scale(0);
+	transform: translateY(-45%) skew(25deg) scale(0);
+}
+
+.text-light .btn.btn-theme-ar.secondary::after {
+	background-color: var(--white);
+}
+
+.btn.btn-theme-ar.secondary:hover {
+	color: var(--white);
+}
+
+.text-light .btn.btn-theme-ar.secondary:hover {
+	color: var(--color-heading);
+}
+
+.btn.btn-theme-ar.secondary:hover::after {
+	-webkit-transform: translateY(-45%) skew(25deg) scale(1.2);
+	-ms-transform: translateY(-45%) skew(25deg) scale(1.2);
+	transform: translateY(-45%) skew(25deg) scale(1.2);
+}
+
+.btn.btn-theme-ar.hover-light::after {
+	background-color: var(--white);
+	-webkit-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+
+.btn.btn-theme-ar.hover-light:hover {
+	color: var(--dark);
+	-webkit-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+
+.btn.btn-theme-ar.hover-light:hover::after {
+	-webkit-transform: translateY(-45%) skew(25deg) scale(1.2);
+	-ms-transform: translateY(-45%) skew(25deg) scale(1.2);
+	transform: translateY(-45%) skew(25deg) scale(1.2);
+}
+
+.contact-style-one-info.contact-ar li i {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: var(--green);
+    border-radius: 50%;
+    color: var(--white);
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 0px;
+}
+
+.contact-area-ar {
+	background-size: 25%;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+
 /* End Arabic CSS */
 
 
@@ -1204,6 +1323,12 @@ strong {
 		background-size: 55% !important;
 		background-repeat: no-repeat;
 		background-position: right bottom;
+		background-position-y: 840px !important;
+	}
+	.contact-area-ar {
+		background-size: 55% !important;
+		background-repeat: no-repeat;
+		background-position: left bottom;
 		background-position-y: 840px !important;
 	}
 
