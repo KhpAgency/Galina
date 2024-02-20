@@ -847,17 +847,17 @@ strong {
 }
 
 .contact-style-one-info.contact-ar li i {
-    display: inline-block;
-    height: 60px;
-    width: 60px;
-    text-align: center;
-    line-height: 60px;
-    background: var(--green);
-    border-radius: 50%;
-    color: var(--white);
-    font-size: 25px;
-    margin-left: 20px;
-    margin-right: 0px;
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	text-align: center;
+	line-height: 60px;
+	background: var(--green);
+	border-radius: 50%;
+	color: var(--white);
+	font-size: 25px;
+	margin-left: 20px;
+	margin-right: 0px;
 }
 
 .contact-area-ar {
@@ -867,19 +867,19 @@ strong {
 }
 
 .footer-item.contact.f-icons-ar li i {
-    display: inline-block;
-    height: 45px;
-    width: 45px;
-    text-align: center;
-    line-height: 45px;
-    border-radius: 50%;
-    margin-left: 20px;
-    margin-right: 0px;
-    background: rgba(255, 255, 255, 0.1);
-    color: var(--white);
-    border: 1px dashed rgba(255, 255, 255, 0.3);
-    font-weight: 300;
-    font-size: 18px;
+	display: inline-block;
+	height: 45px;
+	width: 45px;
+	text-align: center;
+	line-height: 45px;
+	border-radius: 50%;
+	margin-left: 20px;
+	margin-right: 0px;
+	background: rgba(255, 255, 255, 0.1);
+	color: var(--white);
+	border: 1px dashed rgba(255, 255, 255, 0.3);
+	font-weight: 300;
+	font-size: 18px;
 }
 
 
@@ -1341,6 +1341,7 @@ strong {
 		background-position: right bottom;
 		background-position-y: 840px !important;
 	}
+
 	.contact-area-ar {
 		background-size: 55% !important;
 		background-repeat: no-repeat;
@@ -1356,7 +1357,43 @@ strong {
 		text-transform: capitalize;
 		font-family: var(--font-secondary);
 	}
+
+	/* arabic media query */
+
+	.title-ar {
+		font-weight: 800;
+		font-size: 18px;
+		/* margin-top: 50px; */
+	}
+
+	.title-mrg {
+		margin-top: 40px;
+	}
+
+	.grid-center {
+		display: grid;
+		justify-items: center;
+	}
+	.mt-30m{
+		margin-top: 30px;
+	}
+	.mt-20m{
+		margin-top: 20px;
+	}
+	.mb-0m{
+		margin-bottom: 0px;
+	}
+	.reverse{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.product-details .product-thumb .product-item {
+		padding: 0px 15px;
+		/* background: var(--bg-gray); */
+		position: relative;
+	}
 }
+
 
 /* new media query end */
 
