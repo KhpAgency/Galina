@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 /* ----------------------------------
 
 Template Name: Agrul - Organic Farm Agriculture Template
@@ -339,6 +332,8 @@ strong {
 /* MAP HOLDER */
 .map-holder {
 	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin-top: 50px;
 	position: relative;
@@ -658,8 +653,13 @@ strong {
 }
 
 .d-flex-ar {
+	display: -webkit-box !important;
+	display: -ms-flexbox !important;
 	display: flex !important;
-	flex-direction: row-reverse !important;
+	-webkit-box-orient: horizontal !important;
+	-webkit-box-direction: reverse !important;
+	    -ms-flex-direction: row-reverse !important;
+	        flex-direction: row-reverse !important;
 }
 
 .e-span {
@@ -1371,6 +1371,7 @@ strong {
 	}
 
 	.grid-center {
+		display: -ms-grid;
 		display: grid;
 		justify-items: center;
 	}
@@ -1384,8 +1385,13 @@ strong {
 		margin-bottom: 0px;
 	}
 	.reverse{
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		flex-direction: column-reverse;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		    -ms-flex-direction: column-reverse;
+		        flex-direction: column-reverse;
 	}
 	.product-details .product-thumb .product-item {
 		padding: 0px 15px;
@@ -1612,8 +1618,8 @@ p {
 }
 
 .bg-gray-mixed {
-	background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, left bottom, from(var(--white)), to(var(--bg-gray))) repeat scroll 0 0;
 	background: rgba(0, 0, 0, 0) -o-linear-gradient(top, var(--white) 0%, var(--bg-gray) 100%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, left bottom, from(var(--white)), to(var(--bg-gray))) repeat scroll 0 0;
 	background: rgba(0, 0, 0, 0) linear-gradient(to bottom, var(--white) 0%, var(--bg-gray) 100%) repeat scroll 0 0;
 }
 
@@ -3321,8 +3327,8 @@ p {
 }
 
 .text-shine {
-	background: -webkit-gradient(linear, left top, right top, color-stop(0, var(--dark)), color-stop(10%, var(--white)), color-stop(20%, var(--color-primary)));
 	background: -o-linear-gradient(left, var(--dark) 0, var(--white) 10%, var(--color-primary) 20%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0, var(--dark)), color-stop(10%, var(--white)), color-stop(20%, var(--color-primary)));
 	background: linear-gradient(to right, var(--dark) 0, var(--white) 10%, var(--color-primary) 20%);
 	background-position: 0;
 	-webkit-background-clip: text;
@@ -3340,8 +3346,8 @@ p {
 }
 
 .animate-inout {
-	background: -webkit-gradient(linear, left top, right top, from(#8A6552), to(#472d20));
 	background: -o-linear-gradient(left, #8A6552 0%, #472d20 100%);
+	background: -webkit-gradient(linear, left top, right top, from(#8A6552), to(#472d20));
 	background: linear-gradient(90deg, #8A6552 0%, #472d20 100%);
 	color: var(--white);
 	font-size: 12px;
@@ -3436,8 +3442,8 @@ p {
 }
 
 .animate-inout.animate-inout-borde::after {
-	background: -webkit-gradient(linear, left top, right top, from(#8A6552), to(#472d20));
 	background: -o-linear-gradient(left, #8A6552 0%, #472d20 100%);
+	background: -webkit-gradient(linear, left top, right top, from(#8A6552), to(#472d20));
 	background: linear-gradient(90deg, #8A6552 0%, #472d20 100%);
 }
 
@@ -4888,8 +4894,8 @@ nav.navbar.validnavs.inc-shape::after {
 }
 
 .banner-style-one .shadow.dark:after {
-	background: rgba(0, 0, 0, 0) -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0)), color-stop(130%, rgba(0, 0, 0, 1))) repeat scroll 0 0;
 	background: rgba(0, 0, 0, 0) -o-linear-gradient(right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 130%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0)), color-stop(130%, rgba(0, 0, 0, 1))) repeat scroll 0 0;
 	background: rgba(0, 0, 0, 0) linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 130%) repeat scroll 0 0;
 	opacity: 1;
 }
@@ -7326,8 +7332,8 @@ ul.counter-list li:nth-child(2) {
 	content: "";
 	height: 40%;
 	width: 100%;
-	background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(110%, rgba(0, 0, 0, 1))) repeat scroll 0 0;
 	background: rgba(0, 0, 0, 0) -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 110%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(110%, rgba(0, 0, 0, 1))) repeat scroll 0 0;
 	background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 110%) repeat scroll 0 0;
 }
 
