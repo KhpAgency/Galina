@@ -418,6 +418,11 @@ strong {
 	right: -20px;
 }
 
+.footer-pos-ar {
+	position: relative;
+	right: -20px;
+}
+
 .footer-pos2 {
 	position: relative;
 	right: -85px;
@@ -1359,7 +1364,10 @@ strong {
 	}
 
 	/* arabic media query */
-
+	.footer-pos-ar {
+		position: relative;
+		right: 10px;
+	}
 	.title-ar {
 		font-weight: 800;
 		font-size: 18px;
@@ -1398,6 +1406,7 @@ strong {
 		/* background: var(--bg-gray); */
 		position: relative;
 	}
+	
 }
 
 
