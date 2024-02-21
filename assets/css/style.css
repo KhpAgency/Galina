@@ -1370,6 +1370,10 @@ strong {
 		position: absolute;
 	}
 
+	.ml-030m{
+		margin-left: 30%;
+	}
+
 	/* arabic media query */
 	.flag {
 		top: 10px;
