@@ -1406,6 +1406,68 @@ strong {
 		/* background: var(--bg-gray); */
 		position: relative;
 	}
+	.check-solid-list-ar li::after {
+		position: unset !important;
+		content: "" !important;
+		border: unset !important;
+
+	}
+	.check-solid-list-ar li::before {
+		/* position: absolute; */
+		/* left: 730px; */
+		top: 0;
+		content: "\f00c";
+		font-family: "Font Awesome 5 Pro";
+		font-weight: 100;
+		color: var(--orange);
+		float: right;
+		padding-left: 10px;
+	}
+	.list-grid-ar2 li::after {
+		position: unset !important;
+		content: "" !important;
+		border: unset !important;
+	}
+	.list-grid-ar2 li::before {
+		/* position: absolute;
+		left: 515px; */
+		/* top: 2px; */
+		content: "\f00c";
+		font-family: "Font Awesome 5 Pro";
+		height: 20px;
+		width: 20px;
+		line-height: 20px;
+		border: 1px solid var(--orange);
+		text-align: center;
+		color: var(--orange);
+		border-radius: 10px;
+		font-size: 12px;
+		margin-left: 10px;
+		float: right;
+	}
+	.list-grid-ar li::after {
+		position: unset !important;
+		content: "" !important;
+		border: unset !important;
+
+	}
+	.list-grid-ar li::before {
+		/* position: absolute;
+		left: 620px; */
+		/* top: 2px; */
+		content: "\f00c";
+		font-family: "Font Awesome 5 Pro";
+		height: 20px;
+		width: 20px;
+		line-height: 20px;
+		border: 1px solid var(--orange);
+		text-align: center;
+		color: var(--orange);
+		border-radius: 10px;
+		font-size: 12px;
+		margin-left: 10px;
+		float: right;
+	}
 	
 }
 
@@ -6455,6 +6517,7 @@ ul.counter-list li:nth-child(2) {
 	position: relative;
 	z-index: 1;
 	padding-left: 34px;
+	direction: rtl;
 }
 
 .list-grid-ar li::after {
@@ -6488,6 +6551,7 @@ ul.counter-list li:nth-child(2) {
 	position: relative;
 	z-index: 1;
 	padding-left: 34px;
+	direction: rtl;
 }
 
 .list-grid-ar2 li::after {
